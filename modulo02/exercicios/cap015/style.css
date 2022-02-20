@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*
+
+    Em HTML ------ Em CSS
+    id      ------   #
+    class   ------   .
+
+*/
+
+body {
+    background-color: #A4C2A1;
+    font-family: 'Fira Code';
+}
+
+p{text-align: justify;}
+
+/* Pode ser só #principal também */
+h1#principal{
+    text-align: center;
+    background-color: #5d9758;
+}
+
+h1{color:#0d3609;}
+
+h2{color:#0C5206;}
+
+.basico{
+    color:#0C5206;
+}
+
+.intermediario{
+    color:#8b8d03;
+}
+
+.avançado{
+    color:#521106;
+}
+
+.destaque{
+    background-color: rgba(54, 96, 43, 0.522)
+}

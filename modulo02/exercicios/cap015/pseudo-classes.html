@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        /*
+        div{
+            display: inline-block;       Tudo fica na mesma linha (se possivel) 
+            background-color:beige;      Cor do fundo 
+            border: 1px solid black;     Borda 
+            text-align:center;           Alinhamento do texto 
+            height: 250px;               Altura 
+            width: 250px;                Largura 
+        }
+        */
+
+        div:hover > p{
+            display: block;
+            background-color:#ffd198;
+            color:burlywood;
+            width: 200px;
+        }
+
+        div:hover{
+            background-color:bisque;
+            width: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto aqui em baixo</p>
+    <div>
+        Passe o mouse aqui!
+        <p>TEXTO SECRET GUYS :D</p>
+    </div>
+    <p>Fim da página</p>
+</body>
+
+</html>
